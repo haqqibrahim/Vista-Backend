@@ -16,11 +16,11 @@ const vonage = new Vonage({
   privateKey: "private.key",
 });
 // IMPORT ROUTES
-const Preload = require("./routes/preload");
-const LandingPage = require("./routes/landingpage");
-const ArtisanRegister = require("./routes/artisanregister");
-const Artisanhome = require("./routes/artisanhome");
-const UserRegister = require("./routes/userregister");
+const Preload = require("./Routes/preload");
+const LandingPage = require("./Routes/landingpage");
+const ArtisanRegister = require("./Routes/artisanregister");
+const Artisanhome = require("./Routes/artisanhome");
+const UserRegister = require("./Routes/userregister");
 const Hire = require("./Routes/hire");
 const UserLogin = require("./Routes/userlogin");
 const ArtisanLogin = require("./Routes/artisanlogin");
