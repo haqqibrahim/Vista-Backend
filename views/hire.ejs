@@ -1,0 +1,14 @@
+<h1>Let us hire an artisan</h1>
+
+<!-- LIST OF ALL ARTISANS -->
+<% artisans.forEach(artisan => { %>
+<div>
+ 
+  <h2><%= artisan.firstName %></h2>
+  <p>$10/hr</p>
+  <p><%= artisan.profession %></p>
+  <a href="/profile/<%= artisan.username %> "
+    ><button><%= artisan.username %></button></a
+  >
+  <% }) %>
+</div>
